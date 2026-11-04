@@ -1,0 +1,22 @@
+{
+  "name": "CF OPS — ConvoFlow",
+  "short_name": "CF OPS",
+  "description": "ConvoFlow ops dashboard: tickets, audits and client health",
+  "id": "./",
+  "start_url": "./?source=app",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f8fc",
+  "theme_color": "#1a40c2",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Issues", "url": "./?p=issues", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Daily Audits", "url": "./?p=audits", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Blockers", "url": "./?p=blockers", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
